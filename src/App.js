@@ -10,7 +10,7 @@ import img4 from "./image/hero-img04.jpg";
 import finanImg from "./image/img-financial.jpg";
 import quickImg from "./image/img-quickdownload.jpg";
 import downloadImg from "./icon/icon-download.svg";
-import rightArrow from "./icon/icon-right-arrow.svg";
+import rightArrow from "./icon/icon-arrow.svg";
 import book from "./icon/icon-ar.svg";
 import form from "./icon/icon-form56.svg";
 import finan from "./icon/icon-financial.svg";

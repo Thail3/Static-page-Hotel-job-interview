@@ -364,6 +364,14 @@
   opacity: 1;
 }
 
+.menu-items span img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 1px;
+  left: 80px;
+}
+
 .menu-items a {
   position: absolute;
   display: flex;
@@ -405,7 +413,7 @@
   justify-content: space-between;
   /* width: 1498px; */
   /* width: 200px; */
-  width: 220px;
+  width: 210px;
   text-align: left;
   padding: 0.7rem 1rem;
 }
@@ -1389,6 +1397,8 @@
   opacity: 1;
 }
 
+/*-----------------------------------------*/
+
 .quick-container {
   /* Layout Properties */
   position: absolute;
@@ -1452,8 +1462,10 @@
   width: 46px;
   height: 37px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   opacity: 1;
 }
 
@@ -1482,9 +1494,11 @@
   width: 15px;
   height: 12px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   border: 0.5px solid var(--unnamed-color-ffffff);
-  background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.5px solid #ffffff;
   opacity: 1;
 }
@@ -1530,8 +1544,10 @@
   width: 46px;
   height: 37px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   opacity: 1;
 }
 
@@ -1559,9 +1575,11 @@
   width: 15px;
   height: 12px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   border: 0.5px solid var(--unnamed-color-ffffff);
-  background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.5px solid #ffffff;
   opacity: 1;
 }
@@ -1607,8 +1625,10 @@
   width: 46px;
   height: 37px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   opacity: 1;
 }
 
@@ -1636,9 +1656,11 @@
   width: 15px;
   height: 12px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   border: 0.5px solid var(--unnamed-color-ffffff);
-  background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.5px solid #ffffff;
   opacity: 1;
 }
@@ -1684,8 +1706,10 @@
   width: 46px;
   height: 37px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   opacity: 1;
 }
 
@@ -1713,9 +1737,11 @@
   width: 15px;
   height: 12px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(98%) contrast(111%);
   border: 0.5px solid var(--unnamed-color-ffffff);
-  background: #ffffff 0% 0% no-repeat padding-box;
   border: 0.5px solid #ffffff;
   opacity: 1;
 }
@@ -1769,9 +1795,8 @@
   width: 8px;
   height: 11px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  background: #ffffff 0% 0% no-repeat padding-box;
-  opacity: 1;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box; */
+  /* background: #ffffff 0% 0% no-repeat padding-box; */
 }
 
 .contact-container {
@@ -1915,10 +1940,10 @@
   width: 15px;
   height: 12px;
   /* UI Properties */
-  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  border: 0.5px solid var(--unnamed-color-ffffff);
-  background: #ffffff 0% 0% no-repeat padding-box;
-  border: 0.5px solid #ffffff;
+  /* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box; */
+  filter: invert(86%) sepia(89%) saturate(1%) hue-rotate(264deg)
+    brightness(110%) contrast(97%);
 }
 
 .contact-address p {

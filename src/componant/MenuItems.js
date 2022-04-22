@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
 import DropDown from "./DropDown";
+import rightArrow from "../icon/icon-right-arrow.svg";
 
 function MenuItems({ items, depthLevel }) {
   const [dropdown, setDropdown] = useState(false);
@@ -46,7 +47,13 @@ function MenuItems({ items, depthLevel }) {
             onClick={() => setDropdown((prev) => !prev)}
           >
             {items.title}{" "}
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+            {depthLevel > 0 ? (
+              <span>
+                <img src={rightArrow} alt="" />
+              </span>
+            ) : (
+              <span className="arrow" />
+            )}
           </button>
           <DropDown
             depthLevel={depthLevel}
